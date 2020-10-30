@@ -1,0 +1,50 @@
+body {
+  font-family: 'Marvel', sans-serif;
+  margin: 10px;
+  background-image: url('MarvelLogo.svg');
+  background-repeat: repeat;
+  background-size: 300px;
+  background-color: whitesmoke;
+}
+
+#search {
+  padding: 10px;
+  margin: auto;
+  border: 5px solid green;
+  width: 30%;
+  border-radius: 10px;
+  background-color: ivory;
+}
+
+button {
+  margin: 5px 0;
+}
+
+li {
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+#moviesListed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#title {
+  background-color: ivory;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px solid green;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
