@@ -51,6 +51,4 @@ const App = () => {
   )
 }
 
-export default App;
-
-// api address https://mcuapi.herokuapp.com/api/v1/movies
+export default App
