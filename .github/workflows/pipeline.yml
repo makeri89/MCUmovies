@@ -32,7 +32,7 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: pipeline-movies
           heroku_email: markus.kaihola@helsinki.fi
-          healthcheck: 'http://pipeline-movies.herokuapp.com'
+          healthcheck: 'https://pipeline-movies.herokuapp.com'
           delay: 5
           rollbackonhealthcheckfailed: true
         
