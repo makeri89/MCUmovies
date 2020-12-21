@@ -5,7 +5,7 @@ const MovieForm = ({ movie }) => {
   const [showFullInfo, setShowFullInfo] = useState(false)
 
   const movieStyle = {
-    border: 'solid green 5px',
+    border: 'solid green 4px',
     padding: '10px',
     margin: '10px 0',
     borderRadius: '15px',
