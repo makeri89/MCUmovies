@@ -36,7 +36,7 @@ const App = () => {
           <h2>Search movies by year:</h2>
           <input type="text" onChange={handleSearchChange} value={searchState}/><br/>
           <span>Add a search argument</span> <br/>
-          <button onClick={handleSearch}>Search</button>
+          <button onClick={handleSearch} id='searchbutton'>Search</button>
         </form>
       </div>
       {movieList.length === 0 ? 
